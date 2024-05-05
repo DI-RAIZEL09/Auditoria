@@ -1,6 +1,14 @@
-const App = () => {
+import Footer from './layout/Footer'
+import Header from './layout/Header'
+
+function App() {
+
   return (
-    <div>Start</div>
+    <>
+        <Header/>
+        <Footer/>
+    </>
   )
 }
+
 export default App
