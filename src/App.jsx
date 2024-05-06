@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <div>Start</div>
+    <div/>
   )
 }
 export default App
