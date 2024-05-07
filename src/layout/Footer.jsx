@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import visa from '../assets/icon/Visa.svg'
 function Footer() {
   return (
-    <footer style={{borderTop:'1px solid #413C3C', padding:'50px 0 0 0'}}>
+    <footer style={{borderTop:'1px solid #413C3C', padding:'50px 0 0 0', marginTop:'150px'}}>
       <FooterCatygory>
         <div>
             <img src={logo} alt="logo" />

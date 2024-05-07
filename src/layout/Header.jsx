@@ -61,6 +61,9 @@ const ButtonStyle = styled.button`
   border-radius: 50px;
   font-size: 15px;
   font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 103px;
   cursor: pointer;
   height: 39px;
@@ -72,6 +75,9 @@ const ButtonRegStyle = styled.button`
   cursor: pointer;
   border-radius: 50px;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 800;
   width: 158px;
     height: 39px;
@@ -91,6 +97,8 @@ const HeaderStyled = styled.header`
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 10;
+  margin-bottom: 126px;
 `
 const NavStyle = styled.div`
     width: 500px;
