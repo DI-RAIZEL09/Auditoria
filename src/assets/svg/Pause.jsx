@@ -1,14 +1,13 @@
-
-const Play = () => {
+const Pause = () => {
     return (
         <div>
             <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="22" cy="22" r="22" fill="white"/>
-                <path d="M30.7996 22L17.5996 13.2V30.8L30.7996 22Z" fill="#0D111A"/>
+                <rect x="15.6" y="13.2" width="3.2" height="17.6" fill="#0D111A"/>
+                <rect x="25.2" y="13.2" width="3.2" height="17.6" fill="#0D111A"/>
             </svg>
-
         </div>
     );
 };
 
-export default Play;
+export default Pause;
