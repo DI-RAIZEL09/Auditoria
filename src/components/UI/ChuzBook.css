@@ -1,0 +1,23 @@
+button {
+  padding: 20px 40px;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff;
+  text-shadow: none;
+  background: #EC8F32;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #EC8F32;
+  transition: 0.5s ease;
+  user-select: none;
+  border-radius: 40px;
+}
+
+#btn:hover{
+  color: #ffffff;
+  background: #EC8F32;
+  /* border: 1px solid #008cff; */
+  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 10px #ffffff;
+  box-shadow:  1px 1px 5px 3px #EC8F32,
+}
