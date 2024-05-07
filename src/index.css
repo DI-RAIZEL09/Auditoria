@@ -1,0 +1,24 @@
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*css*/
+*{
+    font-family: "Ubuntu Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background: #000000EB;
+    /*background: greenyellow;*/
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor:pointer;
+}

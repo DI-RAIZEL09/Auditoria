@@ -1,0 +1,17 @@
+.swiper-button-prev:after{
+    /*margin-bottom: 100px;*/
+    height: 250px;
+    color: #fff;
+    padding-right: 20px;
+    font-weight: 700;
+
+}
+
+
+.swiper-button-next:after{
+    /*margin-bottom: 100px;*/
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+    height: 250px;
+}

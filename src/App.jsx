@@ -1,6 +1,14 @@
+
+import Products from "./pages/Products.jsx";
+import jsonData from "./utils/constants.js";
+
 const App = () => {
   return (
-    <div>Start</div>
+      <div className="">
+
+           <Products props={jsonData}/>
+      </div>
+
   )
 }
 export default App
