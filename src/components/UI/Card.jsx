@@ -1,6 +1,7 @@
 // import React from 'react';
 import styled from "styled-components";
 import Love from "./Love.jsx";
+import Play from "../../assets/svg/play.jsx";
 
 const Card = (props) => {
 
@@ -18,6 +19,7 @@ const Card = (props) => {
                 </AutorLike>
                 <Title className="card-title">{title}</Title>
             </CardBody>
+            <BT><Play/></BT>
         </Wrapper>
     );
 };
@@ -38,6 +40,7 @@ const Img = styled.img`
     width: 200px;
     border-radius: 20px;
     margin-bottom: 10px;
+
 `
 const CardBody = styled.div`
     width: 200px;
@@ -45,9 +48,20 @@ const CardBody = styled.div`
     justify-content: start;
     flex-direction: column;
     gap: 10px;
-
-
 `
+
+const BT = styled.button`
+position: relative;
+    background: none;
+    border:none;
+        display: none;
+    top: -85%;
+    right: -22%;
+    ${Wrapper}:hover & {
+       display: block; 
+    }
+`;
+
 const AutorLike = styled.div`
     display: flex;
     align-items:center ;

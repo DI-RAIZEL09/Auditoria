@@ -32,6 +32,7 @@ const Products = () => {
                     </Link></Button>
                 </TButton>
                     <SlyDiv>
+
                         <Swiper
                             modules={[Navigation]}
                             spaceBetween={0}

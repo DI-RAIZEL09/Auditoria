@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.7",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.16",
     "@mui/material": "^5.15.16",
     "@react-three/fiber": "^8.16.3",
     "@reduxjs/toolkit": "^2.2.3",
+    "antd": "^5.17.0",
     "axios": "^1.6.8",
     "framer-motion": "^11.1.7",
     "framer-motion-3d": "^11.1.8",
